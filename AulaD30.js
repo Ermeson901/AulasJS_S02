@@ -8,3 +8,18 @@ elemento2.style.color = "green";
 //Elemento por id. 
 let elemento3 = document.querySelector("#par3");
 elemento3.style.color = "blue";
+
+//Eventos
+//onclick="cliquei()"
+
+const cliquei = () => {
+    let elemento4 = document.querySelector("#par5")
+    elemento4.style.color = "red";
+}
+//Varios elementos.
+let itemLista = document.querySelectorAll("#lista2");
+
+for ( let i = 0 ; i <= itemLista.length ; i++){
+    itemLista[i].style.color = "silver"
+}
+
